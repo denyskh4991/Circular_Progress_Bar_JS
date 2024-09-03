@@ -25,7 +25,7 @@ body {
     border-radius: 50%;
     padding: 20px;
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .inner {
@@ -36,13 +36,21 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-                -0.5px -0.5px 0 rgba(255, 255, 255, 1),
-                0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
-                0 12px 10px -10px rgba(0, 0, 0, 0.05)
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0 rgba(255, 255, 255, 1),
+    0.5px 0.5px 0 rgba(0, 0, 0, 0.15),
+    0 12px 10px -10px rgba(0, 0, 0, 0.05)
 }
 
 #number {
     font-weight: 600;
     color: #555;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
 }
